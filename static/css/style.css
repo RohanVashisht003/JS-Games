@@ -1,0 +1,139 @@
+.container-1 {
+    border: 1px solid black;
+    text-align: center;
+    margin: 1rem 6rem;
+}
+
+.flex-box-container-1{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.flex-box-container-1 div{
+    padding: 10px;
+    border: 1px solid orange;
+}
+
+
+
+/* Container2 */
+.container-2 {
+    border: 1px solid black;
+    text-align: center;
+    margin: 3rem 6rem;
+}
+
+.flex-box-container-2{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+.flex-box-container-2 button{
+    display: flex;
+     
+    justify-content: space-around;
+    border: 1px solid blue;
+}
+
+.flex-box-container-2 img{
+    border-radius: 20%;
+    margin: 2px 12px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+
+/* Container-3 */
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px blue;
+}
+
+.container-3 {
+    border: 1px solid black;
+    text-align: center;
+    margin: 1rem 6rem;
+}
+
+.flex-box-rps {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+
+/* Container-4 */
+
+.container-4{
+    border: 1px solid black;
+    text-align: center;
+    margin: 3rem 6rem;
+} 
+
+.flex-box-pick-color{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+
+/* container-5 */
+
+.container-5{
+    border: 1px solid black;
+    width: 85%;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.flex-blackjack-row-3 table{
+    border: 1px solid black;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+background:url("https://thumbs.dreamstime.com/b/yellow-textured-plain-background-wallpaper-design-use-text-image-yellow-textured-plain-background-wallpaper-137515345.jpg") ;
+}
+
+.flex-blackjack-row-1 div{
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    height: 350px;
+    flex: 1;
+}
+
+.flex-blackjack-row-1 img{
+width: 20%;
+padding: 10px;
+}
+
+.flex-blackjack-row-2 button{
+border: 1px solid black;
+}
+
+.flex-blackjack-row-2 div{
+    border: 1px solid black;
+}
+
+.flex-blackjack-row-3 table tr th, .flex-blackjack-row-3 table tr td{
+border:1px solid black ;
+padding: 10px 10px;
+}
